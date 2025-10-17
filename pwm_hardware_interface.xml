@@ -1,0 +1,8 @@
+<library path="pwm_hardware_interface">
+  <class name="pwm_hardware_interface/PwmSystemHardware"
+         type="pwm_hardware_interface::PwmSystemHardware"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      The ros2_control PCA9685 is using a system hardware interface-type. It publishes PWM commands to a servo (steering) and motor controller (throttle). </description>
+  </class>
+</library>
